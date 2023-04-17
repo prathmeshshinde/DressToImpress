@@ -34,3 +34,10 @@ export const MainHeader = styled.main`
   justify-content: end;
   padding: 0 15px;
 `;
+
+export const header = styled.main`
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 20px;
+`;

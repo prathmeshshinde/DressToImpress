@@ -20,11 +20,12 @@ function App() {
   return (
     <S.Container>
       {isFetching && <Loader />}
-      <GithubCorner />
+      {/* <GithubCorner /> */}
+      <S.header>DressToImpress 2</S.header>
       <S.TwoColumnGrid>
         <S.Side>
           <Filter />
-          <GithubStarButton />
+          {/* <GithubStarButton /> */}
         </S.Side>
         <S.Main>
           <S.MainHeader>
